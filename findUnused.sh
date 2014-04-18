@@ -23,6 +23,6 @@ for name in $imageFiles; do
 
     if [ $result -eq 1 ]
     then
-        echo $fileName
+        echo $name
     fi
 done
